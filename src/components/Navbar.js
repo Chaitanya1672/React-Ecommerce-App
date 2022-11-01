@@ -13,7 +13,9 @@ function Navbar() {
             <SearchIcon className="" style={{ fontSize: "16px" }} />
           </div>
         </div>
-        <div>2</div>
+        <div className={styles.link2CenterDiv}>
+          <div className="logo font-bold text-lg">Summer Kings</div>
+        </div>
         <div>3</div>
       </div>
     </nav>

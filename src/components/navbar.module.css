@@ -34,3 +34,7 @@
 .inp {
   outline: none;
 }
+.link2CenterDiv {
+  display: flex;
+  flex: 1 1 0%;
+}
