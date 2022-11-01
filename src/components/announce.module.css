@@ -1,0 +1,12 @@
+.header {
+  /* display: none; */
+  background-color: #8a4af3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-style: bold;
+}
+.closeIcon {
+  cursor: pointer;
+}
