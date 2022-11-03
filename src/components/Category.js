@@ -6,7 +6,7 @@ const Category = ({ item }) => {
     <div className={styles.categorySection}>
       <img src={item.src} className={styles.categoryImg} alt="category_img" />
       <div className={styles.categoryDesc}>
-        <h2 className="">{item.title}</h2>
+        <h2 className={styles.categoryHeader}>{item.title}</h2>
         <button className={styles.btn}>See more</button>
       </div>
     </div>

@@ -1,0 +1,45 @@
+.newsletterDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4a4f9;
+  min-height: 350px;
+  width: 100%;
+}
+.header {
+  font-size: 50px;
+  font-style: bold;
+}
+.description {
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+.inputDiv {
+  border: #cccccc;
+  min-width: 30rem;
+  min-height: 2rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  overflow: hidden;
+  border-radius: 5px;
+  /* padding: 0.5rem; */
+}
+.inp {
+  height: 100%;
+  display: flex;
+  flex: 7;
+  outline: none;
+}
+.btn {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}

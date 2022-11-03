@@ -12,9 +12,6 @@ export const ApiTopPropduct = [
     src: "https://cdn.shopify.com/s/files/1/0240/7285/products/VisitorsCrewneckSweatshirtinWhite11_360x.jpg?v=1642719779",
   },
   {
-    src: "https://cdn.shopify.com/s/files/1/0240/7285/products/GhostlyxFranchiseCoachJacketinBlack13_360x.jpg?v=1642719765",
-  },
-  {
     src: "https://cdn.shopify.com/s/files/1/0240/7285/products/KNITPULLOVER-HARVEST-2_360x.jpg?v=1642616536",
   },
   {
