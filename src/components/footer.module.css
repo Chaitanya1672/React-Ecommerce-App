@@ -1,0 +1,41 @@
+.footerDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.75rem;
+}
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 0.75rem;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+.smIcon {
+  margin: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: white;
+}
+.smIcon:hover {
+  transform: scale(1.1);
+  transition: all 0.15s ease-in;
+}
+.rightDiv {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+}
+.contactIcon {
+  display: flex;
+  margin: 0.75rem;
+}

@@ -18,28 +18,25 @@
 }
 .inputDiv {
   border: #cccccc;
-  min-width: 30rem;
-  min-height: 2rem;
   background-color: white;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
+  min-width: 30rem;
+  min-height: 2rem;
   margin-top: 3rem;
   overflow: hidden;
   border-radius: 5px;
   /* padding: 0.5rem; */
 }
 .inp {
-  height: 100%;
   display: flex;
+  padding-left: 20px;
   flex: 7;
   outline: none;
 }
 .btn {
-  display: flex;
-  height: 100%;
+  /* height: 100%; */
   flex: 1;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
+  background-color: #4caf50;
 }
