@@ -2,7 +2,7 @@ export const ApiSlides = [
   {
     src: "https://image.freepik.com/free-photo/happy-woman-shopping-with-shopping-bags_1150-20495.jpg",
     content: {
-      h2: "Amazing Deals this Summer",
+      h2: "Amazing Deals this Summer ssadd sadadsada ada",
       p: "Upto 40% off",
     },
     background: "bg-[#c6e400]",

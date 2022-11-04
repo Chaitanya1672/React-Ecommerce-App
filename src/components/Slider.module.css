@@ -14,6 +14,7 @@
 .bannerDescription {
   margin-left: 1rem;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -29,6 +30,9 @@
   transform: scale(1.1);
   transition: all 0.15s ease-in;
   background-color: blue;
+}
+.test {
+  display: inline-block;
 }
 /* .parentSlider {
   margin-top: 2rem;

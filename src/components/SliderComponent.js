@@ -4,6 +4,7 @@ import { ApiSlides } from "../apifolder/SliderApi";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { height } from "@mui/system";
 
 function SliderComponent() {
   const [slides] = useState(ApiSlides);
@@ -23,13 +24,13 @@ function SliderComponent() {
         {slides.map((slide, i) => (
           <div key={i} className={slide.background}>
             <div className={styles.bannerSlide}>
-              <div>
+              <div className="flex flex-1">
                 <img src={slide.src} className={styles.Img} alt="Hero Banner" />
               </div>
               <div className={styles.bannerDescription}>
-                <h2 className="text-[55px]">{slide.content.h2}</h2>
+                <h2 className={`text-[55px]`}>{slide.content.h2}</h2>
                 <p className="text-[30px] mb-2">{slide.content.p}</p>
-                <button className={styles.btn}>Shop Now</button>
+                <button className={` ${styles.btn}`}>Shop Now</button>
               </div>
             </div>
           </div>

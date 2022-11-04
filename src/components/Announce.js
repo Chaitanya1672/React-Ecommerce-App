@@ -5,13 +5,13 @@ import { display, style } from "@mui/system";
 
 function Announce() {
   const [announce, setAnnounce] = useState(true);
-  const announceCloseHandler = () => {
+  const announceHandler = () => {
     setAnnounce(false);
   };
   return (
     <header className={announce ? styles.header : "hidden"}>
       <h2 className="mr-2">Hurry Up It is 40% off</h2>
-      <CloseIcon className={styles.closeIcon} onClick={announceCloseHandler} />
+      <CloseIcon className={styles.closeIcon} onClick={announceHandler} />
     </header>
   );
 }

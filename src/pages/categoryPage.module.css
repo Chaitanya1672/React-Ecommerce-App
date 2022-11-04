@@ -1,0 +1,22 @@
+.categoryParentDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+.categorySections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+.firstCateorySection {
+  display: flex;
+}
+.sizeSection {
+  margin-left: 0.75rem;
+  border: 2px solid silver;
+}
+.sortBySection {
+  margin-left: 0.75rem;
+  border: 2px solid silver;
+}
