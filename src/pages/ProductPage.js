@@ -32,7 +32,7 @@ function ProductPage() {
             <p className={styles.colorSecTitle}>Colors :-</p>
             <span className={`bg-red-600  ${styles.colorBlock}`}></span>
             <span className={`bg-blue-600 ${styles.colorBlock}`}></span>
-            <span className={`bg-green-600 ${styles.colorBlock}`}></span>
+            <span className={`bg-yellow-400 ${styles.colorBlock}`}></span>
           </div>
           <div className={`mt-4 ${styles.sizeDiv}`}>
             <span className="mr-4">Size</span>
