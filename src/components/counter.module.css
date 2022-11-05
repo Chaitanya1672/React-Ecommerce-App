@@ -1,0 +1,31 @@
+.quantityCounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.quantityHandle {
+  display: flex;
+  margin-left: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+
+  border-radius: 8px;
+  overflow: hidden;
+  /* border: 2px solid purple; */
+}
+.countContoller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  background-color: #8a4af3;
+  cursor: pointer;
+  color: white;
+}
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  border: 2px solid #8a4af3;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Announce from "../components/Announce";
+import Counter from "../components/Counter";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
@@ -18,41 +19,34 @@ function ProductPage() {
           />
         </div>
         <div className={styles.productOption}>
-          <h1>Creamy Hoody Original</h1>
-          <p>
+          <h1 className="text-[40px]">Creamy Hoody Original</h1>
+          <p className={styles.paragraph}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem
+            voluptatum laborum !
           </p>
-          <h3>Price :- $70</h3>
-          <div>
-            <h4>Colors </h4>
-            <span className=""></span>
-            <span>b</span>
-            <span>r</span>
+          <p className="mt-4 text-3xl">
+            Price :-<b>$70</b>
+          </p>
+          <div className={styles.colorSec}>
+            <p className={styles.colorSecTitle}>Colors :-</p>
+            <span className={`bg-red-600  ${styles.colorBlock}`}></span>
+            <span className={`bg-blue-600 ${styles.colorBlock}`}></span>
+            <span className={`bg-green-600 ${styles.colorBlock}`}></span>
           </div>
-          <h4>
-            <span>Size</span>
-            <select>
+          <div className={`mt-4 ${styles.sizeDiv}`}>
+            <span className="mr-4">Size</span>
+            <select className={styles.sizeSelector}>
               <option selected disabled>
                 Select
               </option>
-              <option>l</option>
-              <option>xl</option>
-              <option>xxl</option>
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
             </select>
-          </h4>
-          <div>
-            <h4>Quantity</h4>
-            <div>
-              <button>+</button>
-              <span>1</span>
-              <button>-</button>
-            </div>
           </div>
-          <button>Add Item</button>
+          <Counter />
+          <button className={styles.btn}>Add Item</button>
         </div>
       </div>
       <Newsletter />
